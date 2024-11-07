@@ -1,0 +1,88 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.header {
+    background-color: red;
+    color: white;
+}
+
+.upper-bun {
+    width: 30rem;
+    height: 7rem;
+    border-radius: 7rem 7rem 2rem 2rem;
+    border-bottom: 1rem solid #d2a15f;
+    background-color: #ddb786;
+}
+
+.cheese {
+    width: 30rem;
+    height: 1.5rem;
+    background-color: #ffd602;
+    border-bottom: 0.3rem solid #dba218;
+}
+
+.tomato {
+    width: 20rem;
+    height: 2rem;
+    background-color: #fe0000;
+    border-bottom: 0.3rem solid #da1439;
+}
+
+.meat {
+    width: 30rem;
+    height: 3rem;
+    background-color: #cd6434;
+    border-radius: 2rem;
+    border-bottom: 0.4rem solid #9c3102;
+
+}
+
+.onion {
+    width: 18rem;
+    height: 2rem;
+    background-color: #81007f;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.inside-onion {
+    width: 2rem;
+    height: 2rem;
+    background-color: #dda0dc;
+    border-radius: 100%;
+
+}
+
+.meat-balls-container {
+
+    display: flex;
+}
+
+.meat-ball {
+    width: 5rem;
+    height: 5rem;
+    background-color: #a52b2a;
+    border-radius: 100%;
+}
+
+.cucumber {
+    width: 20rem;
+    height: 3rem;
+    background-color: #90f08f;
+    border-radius: 0 0 5rem 5rem;
+    border-bottom: 1rem solid #008001;
+}
+
+.lower-bun {
+    width: 30rem;
+    height: 3gitrem;
+    border-radius: 2rem 2rem 7rem 7rem;
+    border-top: 1rem solid #d2a15f;
+    background-color: #ddb786;
+}
